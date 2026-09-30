@@ -5,3 +5,8 @@ class StudentSchema(BaseModel):
     email : str
     age : int 
     department : str 
+
+
+class ReponseSchema(BaseModel):
+    name: str
+    department : str
